@@ -1,5 +1,4 @@
-# 🧠 Parallel Mixture of Experts (MoE) — Experimental PyTorch Implementation using          
-#'torch.multiprocessing'
+# 🧠 Parallel Mixture of Experts (MoE) — Experimental PyTorch Implementation using 'torch.multiprocessing'
 
 This project implements an **experimental parallel version** of the **Mixture of Experts (MoE)** architecture in PyTorch using **`torch.multiprocessing`**.  
 It explores how to run multiple neural network “experts” across different CPU processes in parallel and combine their outputs through a learned gating (router) network.
